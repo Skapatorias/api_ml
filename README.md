@@ -3,10 +3,14 @@
 
 ## Stack
 - Flask 
-- Insomnia (para los métodos HTTP)
+- Insomnia (para hacer los requests)
 - Python 3
 - Postgres
 - Pytest
+
+## CLONAR REPOSITORIO
+Posicionarse por consola en la carpeta donde quiera clonarse el repositorio y escribir.
+>>> git clone
 
 
 Se hosteó la API en Heroku, la cual detecta a través de una secuencia de ADN si el humano es MUTANTE o no. Lo hace a través de un programa donde 
@@ -27,3 +31,6 @@ En este endpoint debe introducirse mediante el método HTTP POST un json con una
 En el caso de que sea mutante la API devuelve un STATUS_CODE de 200 y un mensaje diciendo: "Es mutante".
 
 En caso de que no lo sea, pone un mensaje "no es mutante" y devuelve un error 403-Forbidden.
+
+
+## TESTS
