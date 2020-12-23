@@ -45,14 +45,6 @@ logica_test.py .........                                                        
 #### Con el comando "coverage report" veremos la cobertura de pruebas
 >>> coverage report
 
-Name             Stmts   Miss  Cover
-------------------------------------
-logica.py           51      0   100%
-logica_test.py      25      0   100%
-------------------------------------
-TOTAL               76      0   100%
-
-
 
 #### Para ver un html más detallado con los resultados, escribir en consola:
 >>> coverage html
