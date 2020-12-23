@@ -10,7 +10,7 @@
 
 ## CLONAR REPOSITORIO
 Posicionarse por consola en la carpeta donde quiera clonarse el repositorio y escribir.
->>> git clone
+>>> git clone https://github.com/Skapatorias/api_ml.git
 
 
 Se hosteó la API en Heroku, la cual detecta a través de una secuencia de ADN si el humano es MUTANTE o no. Lo hace a través de un programa donde 
@@ -34,3 +34,33 @@ En caso de que no lo sea, pone un mensaje "no es mutante" y devuelve un error 40
 
 
 ## TESTS
+Se debe tener instalado Pytest y Coverage (pip install pytest coverage)
+#### Por consola, en la carpeta raíz, ejecutar el comando "pytest". Se ejecutarán los TEST y se verá el resultado.
+>>> pytest
+
+logica_test.py .........                                                                                                                                         [100%]
+
+========================================================================== 9 passed in 0.09s =======================================================================
+
+#### Con el comando "coverage report" veremos la cobertura de pruebas
+>>> coverage report
+
+Name             Stmts   Miss  Cover
+------------------------------------
+logica.py           51      0   100%
+logica_test.py      25      0   100%
+------------------------------------
+TOTAL               76      0   100%
+
+
+
+#### Para ver un html más detallado con los resultados, escribir en consola:
+>>> coverage html
+
+Se creará una carpeta llamada htmlcov. Allí dentro abrir el archivo "index.html" y se verán los datos en formato HTML.
+
+
+
+
+
+
